@@ -9,6 +9,10 @@ This is a single-page web app developed for the frontend-nanodegree course of Ud
 3. Click anywhere on the map to close the information window that opens
 4. Click on the button below the filter/search box to collapse or expand the suggestions list
 
+## Running Online
+
+Open the demo [here](https://pponto.github.io/react-neighborhood-map/)
+
 ## Installing
 
 Project made by [Create-React-App starter code](https://github.com/facebookincubator/create-react-app)
