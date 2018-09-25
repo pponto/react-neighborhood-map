@@ -11,7 +11,7 @@ This is a single-page web app developed for the frontend-nanodegree course of Ud
 
 ## Installing
 
-The project uses [Create-React-App starter code](https://github.com/facebookincubator/create-react-app) on a [Node.js >= 6](https://nodejs.org/en/) environment.
+Project made by [Create-React-App starter code](https://github.com/facebookincubator/create-react-app)
 
 Follow these steps:
 
