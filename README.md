@@ -25,7 +25,7 @@ The app will launch in your browser at the address[http://localhost:3000/](http:
 
 ## Running in Production Mode
 
-You can run the build for testing the service worker following these steps
+You can run the build for testing the service worker following these steps:
 
-1 First `npm run build` to create an optimized version
-2 Then `npm run deploy` to deploy to the specified address
+1. First `npm run build` to create an optimized version
+2. Then `npm run deploy` to deploy to the specified address
