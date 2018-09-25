@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Praça de Casa Forte",
+    "type": "Square",
+    "latitude": -8.034825999999999,
+    "longitude": -34.9194623,
+    "streetAddress": "Praça de Casa Forte"
+  },
+  {
+    "name": "Casa Leve",
+    "type": "Restaurant",
+    "latitude": -8.035905075775203,
+    "longitude": 	-34.920122604423,
+    "streetAddress": "Av. Dezessete de Agosto, 1401"
+  },
+  {
+    "name": "Belluci Gelateria",
+    "type": "Restaurant",
+    "latitude": -8.034105549230697,
+    "longitude": -34.919461854387386,
+    "streetAddress": "Praça de Casa Forte, 425"
+  },
+  {
+    "name": "Cartório de Registro Civil",
+    "type": "Registry",
+    "latitude": -8.0366955,
+    "longitude": -34.91534,
+    "streetAddress": "Rua Laurindo Coelho, 92"
+  },
+  {
+    "name": "Venda do Seu Antônio",
+    "type": "Bar",
+    "latitude": -8.03376330890198,
+    "longitude": -34.92267135643716,
+    "streetAddress": "Rua dos Arcos, 1745"
+  }
+]
