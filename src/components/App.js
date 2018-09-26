@@ -67,6 +67,7 @@ class App extends Component {
 
     this.state.allLocations.forEach(function(location) {
       const longName = location.name + ' - ' + location.type;
+      const key = location.id;
       const marker = new window.google.maps.Marker({
         position: new window.google.maps.LatLng(location.latitude, location.longitude),
         animation: window.google.maps.Animation.DROP,
@@ -77,6 +78,7 @@ class App extends Component {
         self.openInfoWindow(marker);
       });
 
+      location.key = key;
       location.longName = longName;
       location.marker = marker;
       location.display = true;
@@ -123,12 +125,14 @@ class App extends Component {
           }
 
           // Verify the text response
-          response.json().then(function(data) {
+          response.json().then(function(data) {            
             var location_data = data.response.venues[0];
+            var place = '<h3>' + location_data.name + '</h3>';
+            var street = '<p>' + location_data.location.formattedAddress[0] + '</p>';
             var verified = '<b>Verified Location: </b>' + (location_data.verified ? 'Yes' : 'No') + '<br>';
             var tipCount = '<b>Number of Tips: </b>' + location_data.stats.tipCount + '<br>';
             var readMore = '<a href="https://foursquare.com/v/'+ location_data.id +'" target="_blank">Read More on Foursquare</a>';
-            self.state.infoWindow.setContent(tipCount + verified + readMore);
+            self.state.infoWindow.setContent(place + street + tipCount + verified + readMore);
           });
         }
       )

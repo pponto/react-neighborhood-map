@@ -59,15 +59,15 @@ class LocationList extends Component {
    * Render function
    */
   render() {
-    var LocationList = this.state.locations.map(function(listItem, index) {
+    var LocationList = this.state.locations.map(function(listItem) {
       return (
-        <LocationItem key={index} openInfoWindow={this.props.openInfoWindow.bind(this)} data={listItem} />
+        <LocationItem openInfoWindow={this.props.openInfoWindow.bind(this)} data={listItem} />
       );
     }, this);
 
     return (
       <div className="search">
-        <input role="search" aria-labelledby="filter" id="search-field" type="text" placeholder="Type to Filter" value={this.state.query} onChange={this.filterLocations}></input>
+        <input role="search" aria-label="search filter" id="search-field" type="text" placeholder="Type to Filter" value={this.state.query} onChange={this.filterLocations}></input>
         <ul>
           {this.state.suggestions && LocationList}
         </ul>

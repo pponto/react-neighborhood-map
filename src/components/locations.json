@@ -1,6 +1,7 @@
 [
   {
     "name": "Praça de Casa Forte",
+    "id": 1,
     "type": "Square",
     "latitude": -8.034825999999999,
     "longitude": -34.9194623,
@@ -8,6 +9,7 @@
   },
   {
     "name": "Casa Leve",
+    "id": 2,
     "type": "Restaurant",
     "latitude": -8.035905075775203,
     "longitude": 	-34.920122604423,
@@ -15,6 +17,7 @@
   },
   {
     "name": "Belluci Gelateria",
+    "id": 3,
     "type": "Restaurant",
     "latitude": -8.034105549230697,
     "longitude": -34.919461854387386,
@@ -22,6 +25,7 @@
   },
   {
     "name": "Cartório de Registro Civil",
+    "id": 4,
     "type": "Registry",
     "latitude": -8.0366955,
     "longitude": -34.91534,
@@ -29,6 +33,7 @@
   },
   {
     "name": "Venda do Seu Antônio",
+    "id": 5,
     "type": "Bar",
     "latitude": -8.03376330890198,
     "longitude": -34.92267135643716,
